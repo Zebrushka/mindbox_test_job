@@ -21,7 +21,8 @@ Answer to the test assignment for the data science intern position
 ### Ответ
 
 Функция для подсчета количества клиентов в группах АБ теста: 
-count_customers(n_customers: int, n_first_id: int = 0)
+count_customers(n_customers: int, n_first_id: int = 0) 
+Параметр по умолчанию n_first_id равен 0. В задании указано, что необходимо две функции, но т.к. у них одинаковый функционал (за исключение n_first_id) данный функционал можно реализовать в рамках одной функции, если вынести n_first_id в параметр. 
 
 Воспомогательные функции:
 1. generate_random_number() - получаем случайное число заданной длины
